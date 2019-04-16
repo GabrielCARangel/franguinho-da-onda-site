@@ -66,6 +66,14 @@ a:hover{
 	color: #418075;
 	padding-top: 40px;
  }
+.telefone, .pedido {
+	text-align:center;
+	padding-right: 40px;
+	padding-top: 40px;
+	font-size: 30px;
+	font-family: 'Luckiest Guy', cursive;
+	color:#418075;
+}
 
 main{
 	width: 80%;
