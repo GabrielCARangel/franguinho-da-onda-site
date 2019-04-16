@@ -1,5 +1,5 @@
 * {
-	font-family: Roboto;
+	font-family: 'Luckiest Guy', cursive;
 }
 body {
 	background-image: url(../img/hamburger.jpg);
@@ -8,7 +8,7 @@ body {
 	background-position: center right;
 }
 form {
-	background-color: rgba(255,255,255,0.3);
+	background-color: rgba(255,255,255,0.2);
 	border: black solid 2px;
 	padding: 50px;
 	margin-left: 25px;
@@ -19,12 +19,14 @@ form {
 }
 #titulo {
 	text-align: center;
-	color: white;
+	color: #418075;
 	text-shadow: 2px 2px 2px black;
 }
+#titulo:hover {
+	color: #FFA200;
+}
 label {
-	color: white;
-	text-shadow: 2px 2px 2px black;
+	color: #418075;
 	margin-bottom: 5px;
     margin-top: 10px;
     display: inline-block;
@@ -42,7 +44,7 @@ button {
 	background-color: white;
 	border-radius: 5px;
 	border: #6d6969 solid 1px;
-	color: black;
+	color: #418075;
 	cursor: pointer;
 	float: right;
 	font-size: 14px;
@@ -54,17 +56,8 @@ button {
 	padding-top: 10px;
 	width: 80px;
 }
-#enviar:hover{
-	border-color: green;
-	background-color: green;
-}
-#reset:hover {
-	border-color: red;
-	background-color: red;
-}
-#voltar:hover {
-	border-color: orange;
-	background-color: orange;
+button:hover{
+	color: #FFA200;
 }
 select {
 	background-color: white;
