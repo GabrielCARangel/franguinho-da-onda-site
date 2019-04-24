@@ -1,10 +1,8 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 	border:0;
 }
-
-
 
 .logo{
 
@@ -13,10 +11,10 @@
 	margin-left: 50px;
 	margin-top: 50px;
 }
+
 .frango{
 	width: 250px;
 }
-
 
 .franguinho{
 	background-image: url(../img/burguer.gif);
@@ -26,9 +24,7 @@
 	width: 100%;
 }
 
-
-ul{
-    
+ul {  
 	text-align: right;
 	padding-right: 40px;
 	padding-top: 40px;
@@ -36,7 +32,7 @@ ul{
 	font-family: 'Luckiest Guy', cursive;
 }
 
-li{
+li {
 
 	display: inline;
 }
@@ -65,6 +61,8 @@ a:hover{
 	font-family: 'Luckiest Guy', cursive;
 	color: #418075;
 	padding-top: 40px;
+<<<<<<< HEAD
+=======
  }
 .telefone, .pedido {
 	text-align:center;
@@ -73,14 +71,15 @@ a:hover{
 	font-size: 30px;
 	font-family: 'Luckiest Guy', cursive;
 	color:#418075;
+>>>>>>> franguinho-da-onda-site/master
 }
 
-main{
+main {
 	width: 80%;
 	margin: auto;
 }
 
- iframe{
+ iframe {
 
  	width: 100%;
  }

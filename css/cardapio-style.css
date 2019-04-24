@@ -1,0 +1,34 @@
+
+body {
+	background-color: rgb(238,204,170);
+	background-image: url(../img/hamburger.jpg);
+	background-size: cover;
+}
+#titulo{
+	color: #418075;
+	font-size: 40px;
+	font-family: 'Luckiest Guy', cursive;
+	text-align: center;
+	padding-top: 10px;
+	text-shadow: 2px 2px 2px black;
+
+}
+legend{
+	font-family: 'Luckiest Guy', cursive;	
+}
+.cardapio{
+	overflow: auto;	
+}
+.card1, .card2, .card3, .card4, .card5{
+	color: #418075;
+	float: left;
+	text-align: center;
+	border-style: solid;
+  	border-color: #black;
+ 	border-width: 2px;
+	margin: 10px;
+	background-color: white;			
+}
+.cardapio:hover img{
+	background-color: orange;
+}
