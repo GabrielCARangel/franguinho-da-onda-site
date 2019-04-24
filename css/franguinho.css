@@ -61,6 +61,17 @@ a:hover{
 	font-family: 'Luckiest Guy', cursive;
 	color: #418075;
 	padding-top: 40px;
+<<<<<<< HEAD
+=======
+ }
+.telefone, .pedido {
+	text-align:center;
+	padding-right: 40px;
+	padding-top: 40px;
+	font-size: 30px;
+	font-family: 'Luckiest Guy', cursive;
+	color:#418075;
+>>>>>>> franguinho-da-onda-site/master
 }
 
 main {
