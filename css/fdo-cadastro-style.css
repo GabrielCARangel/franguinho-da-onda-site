@@ -5,7 +5,6 @@ body {
 	background-image: url(../img/hamburger.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center right;
 }
 form {
 	background-color: rgba(255,255,255,0.2);
@@ -79,4 +78,9 @@ select {
 	background-color: white;
 	border: #6d6969 solid 1px;
 	border-radius: 5px;
+}
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
 }
